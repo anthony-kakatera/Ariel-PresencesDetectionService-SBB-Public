@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.mobicents</groupId>
+    <artifactId>Ariel-ProxyIMS-1.0</artifactId>
+    <version>1.0</version>
+  </parent>
+  <artifactId>Ariel-ProxyIMS-1.0-sbb</artifactId>
+  <name>Mobicents :: ${pom.artifactId} v${pom.version}</name>
+  <dependencies>
+    <dependency>
+      <groupId>javax.slee</groupId>
+      <artifactId>jain-slee</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mobicents.servers.jainslee.api</groupId>
+      <artifactId>jain-slee-11-ext</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>javax.sip</groupId>
+    	<artifactId>jain-sip-ri</artifactId>
+    	<version>1.2.344</version>
+    </dependency>
+    <dependency>
+    	<groupId>javax.sip</groupId>
+    	<artifactId>jain-sip-api</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>org.mobicents.resources</groupId>
+    	<artifactId>sip11-ratype</artifactId>
+    	<version>2.8.45</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.coreSoftwareDevelopment</groupId>
+    	<artifactId>Ariel-LocationService-EJB</artifactId>
+    	<version>1.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.mobicents</groupId>
+    	<artifactId>Ariel-RegistrationService-1.2-sbb</artifactId>
+    	<version>1.0</version>
+    </dependency>
+  </dependencies>
+</project>

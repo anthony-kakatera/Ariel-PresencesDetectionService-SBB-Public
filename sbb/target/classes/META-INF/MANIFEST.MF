@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-Description: JAIN SLEE Project created with Mobicents EclipSLEE
+  v2.1.0.FINAL
+Implementation-Title: org.mobicents:Ariel-ProxyIMS-1.0-sbb
+Bundle-License: http://www.gnu.org/licenses/lgpl-2.1.html
+Bundle-SymbolicName: org.mobicents.Ariel-ProxyIMS-1.0-sbb
+Implementation-Version: 1.0
+Built-By: User
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1526007501068
+Implementation-Vendor-Id: JBoss, a Red Hat division
+Import-Package: javax.sip,javax.slee,org.mobicents.slee
+Tool: Bnd-1.15.0
+Export-Package: com.arielProxyIMS.sbb;uses:="javax.slee,org.mobicents.
+ slee,javax.sip"
+Bundle-Version: 1.0.0
+Bundle-Name: Mobicents :: Ariel-ProxyIMS-1.0-sbb v1.0
+Created-By: Apache Maven Bundle Plugin
+Implementation-URL: http://www.mobicents.org
+Build-Jdk: 1.8.0_40
+
